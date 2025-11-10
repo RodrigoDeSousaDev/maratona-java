@@ -11,7 +11,11 @@ public class PessoaTest01 {
 //        pessoa.idade = -1;
 
         pessoa.setNome("Rodrigo");
-        pessoa.setIdade(-1);
+        pessoa.setIdade(22);
         pessoa.imprime();
+
+        System.out.println("Pegando o nome: "+pessoa.getNome());
+        System.out.println("Pegando a idade: "+pessoa.getIdade());
+
     }
 }
