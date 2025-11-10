@@ -18,7 +18,7 @@ public class Pessoa {
     //CONTRATO
     public void setIdade(int idade){
         if(idade <0){
-            System.out.println("idade invalida");
+            System.out.println("idade dever nao pode ser negativa");
             return;
         }
         this.idade = idade;
