@@ -26,6 +26,7 @@ public class HerançaTest01 {
         funcionario.setCargo("Dev Pleno");
         funcionario.setSalario(5000);
         funcionario.imprime();
+        funcionario.relatorioPagamento();
     }
 
 }

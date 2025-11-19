@@ -1,9 +1,10 @@
 package academy.devdojo.maratonajava.javacore.Hherança.dominio;
 
 public class Pessoa {
-    private String nome;
-    private String cpf;
-    private Endereco endereco;
+    // protected um private que eu consigo puxar o valor para medotos filhos
+    protected String nome;
+    protected String cpf;
+    protected Endereco endereco;
 
     public void imprime(){
         System.out.println(this.nome);
