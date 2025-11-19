@@ -3,7 +3,7 @@ package academy.devdojo.maratonajava.javacore.Fmodificadorestatico.dominio;
 public class Carro {
     private String nome;
     private double velocidadeMaxima;
-    public static double velocidadeLimite = 250;
+    private static double velocidadeLimite = 250;
 //  static
 
 
@@ -14,9 +14,21 @@ public class Carro {
 
     public void imprime(){
         System.out.println("--------------");
-        System.out.println("Nome: "+ nome);
+        System.out.println("Nome: "+ this.nome);
         System.out.println("Velocidade maxima: "+ this.velocidadeMaxima);
         System.out.println("Velocidade limite: "+ Carro.velocidadeLimite);
+
+//      usar o objeto para referenciar o valor quando for static
+//      metodos static nao podem acessar atributos de instancia pq
+//      quando usamos static existe a possibilidade de nao existir objeto em memoria
+    }
+
+    public static void setVelocidadeLimite(double velocidadeLimite){
+        Carro.velocidadeLimite = velocidadeLimite;
+    }
+
+    public static double getVelocidadeLimite(){
+        return velocidadeLimite;
     }
 
     public String getNome() {
