@@ -10,9 +10,10 @@ public class Seminario {
         this.tema = tema;
     }
 
-    public Seminario(String tema, Estudante[] nomeEstudante) {
+    public Seminario(String tema, Estudante[] nomeEstudante, Local local) {
         this.tema = tema;
         this.nomeEstudante = nomeEstudante;
+        this.endereco = local;
     }
 
     public void imprime(){
