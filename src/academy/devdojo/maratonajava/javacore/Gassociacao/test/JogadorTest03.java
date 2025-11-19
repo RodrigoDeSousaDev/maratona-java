@@ -9,11 +9,15 @@ public class JogadorTest03 {
         Jogador jogador2 = new Jogador("cassio");
         Jogador jogador3 = new Jogador("pelé");
         Time time = new Time("brasil");
+        Time time2 = new Time("santos");
+        Time time3 = new Time("corinthians");
+
         Jogador[] jogadores = {jogador1, jogador2, jogador3};
 
-        for (Jogador jogador : jogadores) {
-            jogador.setTime(time);
-        }
+        jogador1.setTime(time3);
+        jogador2.setTime(time3);
+        jogador3.setTime(time2);
+
 
         time.setJogadores(jogadores);
 
