@@ -11,16 +11,14 @@ public class HerançaTest01 {
         endereco.setCep("07792430");
         endereco.setNumero(32);
 
-        Pessoa pessoa = new Pessoa();
-        pessoa.setNome("Rodrigo");
+        Pessoa pessoa = new Pessoa("Rodrigo");
         pessoa.setCpf("48021312594");
         pessoa.setEndereco(endereco);
 
         pessoa.imprime();
 
         System.out.println("---- FUNCIONARIO ----");
-        Funcionario funcionario = new Funcionario();
-        funcionario.setNome("David");
+        Funcionario funcionario = new Funcionario("David");
         funcionario.setCpf("213125812951");
         funcionario.setEndereco(endereco);
         funcionario.setCargo("Dev Pleno");
