@@ -7,8 +7,8 @@ public class FuncionarioTest01 {
     public static void main(String[] args) {
         //Funcionario funcionario = new Funcionario("Rodrigo", 2159); vai dar erro
 
-        Gerente gerente = new Gerente("carlos", 5000);
-        Desenvolvedor desenvolvedor = new Desenvolvedor("Rodrigo", 2105, "Back-End");
+        Gerente gerente = new Gerente("carlos", 10000);
+        Desenvolvedor desenvolvedor = new Desenvolvedor("Rodrigo", 5000, "Back-End");
 
         System.out.println(gerente);
         System.out.println(desenvolvedor);
