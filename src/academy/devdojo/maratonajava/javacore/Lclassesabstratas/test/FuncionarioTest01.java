@@ -3,6 +3,7 @@ package academy.devdojo.maratonajava.javacore.Lclassesabstratas.test;
 import academy.devdojo.maratonajava.javacore.Lclassesabstratas.dominio.Desenvolvedor;
 import academy.devdojo.maratonajava.javacore.Lclassesabstratas.dominio.Gerente;
 
+
 public class FuncionarioTest01 {
     public static void main(String[] args) {
         //Funcionario funcionario = new Funcionario("Rodrigo", 2159); vai dar erro
@@ -12,7 +13,8 @@ public class FuncionarioTest01 {
 
         System.out.println(gerente);
         System.out.println(desenvolvedor);
-
+        gerente.imprime();
+        desenvolvedor.imprime();
 
     }
 }
