@@ -12,5 +12,7 @@ public abstract class Funcionario {
         this.salario = salario;
     }
 
-
+    // nao posso ter metodos abstratos em classes concretas
+    // porem posso ter metodos concretos em classes abstratas
+    public abstract void calcularBonus();
 }
